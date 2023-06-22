@@ -1,14 +1,22 @@
 {
-  "name": "poc-teste",
+  "name": "poc-teste-site",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "minify src/index.js > src/dist/index.min.js",
+    "build": "minify src/script.js > src/dist/script.min.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tibluka/poc-teste.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tibluka/poc-teste/issues"
+  },
+  "homepage": "https://github.com/Tibluka/poc-teste#readme",
   "dependencies": {
     "minify": "^10.2.0"
   }
