@@ -2,9 +2,8 @@
   "name": "poc-teste-site",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "minify src/script.js > src/dist/script.min.js",
+    "build": "node minify.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +17,7 @@
   },
   "homepage": "https://github.com/Tibluka/poc-teste#readme",
   "dependencies": {
-    "minify": "^10.2.0"
+    "@node-minify/babel-minify": "^8.0.6",
+    "@node-minify/core": "^8.0.6"
   }
 }
